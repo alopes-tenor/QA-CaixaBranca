@@ -2,20 +2,17 @@
 
 Este repositório armazena o código de um arquivo que foi testado utilizando a técnica caixa-branca, afim de verificar o funcionamento interno do sistema.
 
-## O que é Teste de Caixa Branca?
+## Documentação do código
 
-Resumidamente, o teste de caixa branca tem o objetivo de testar o funcionamento interno do sistema. Diferentemente do teste de caixa-preta, o tester possui acesso ao código fonte, podendo entender a estrutura interna do programa.
+Documentar um código é considerado uma boa prática de programação, é uma forma de que qualquer pessoa que tenha acesso ao código entenda o que ele está fazendo e qual sua funcionalidade.
 
-## Possíveis erros encontrados no código
+## JAVADOC
 
-Levando em consideração os pontos recomendados a serem observados no teste de caixa branca, é possível pontuar:
+Para realizar a documentação do código, foi utilizada a ferramenta JavaDoc, que é uma ferramenta voltada para a documentação de códigos em Java. A ferramenta vem instalada junto ao JDK e é possível utilizá-la através de qualquer IDE. Neste caso, a IDE utilizada é o Apache Netbeans 13.
 
-1. **Ausência de documentação do código**
-A documentação do código, incluindo os métodos criados e variáveis atribuídas, é uma boa prática dentro da programação. Sem esta prática, a manutenção do código fica inviável para qualquer desenvolvedor, aumentando a possibilidade de erros lógicos.
+1. **Documentação da classe User **
+O código documentado pode ser acessado neste repositório em:
 
-2. **Utilização de modificadores de acesso**
-Durante a leitura do código, é possível notar que há classes e métodos com acesso Public, o que significa que qualquer objeto ou método dentro do mesmo projeto tem acesso a ele. O mais correto, é classificar classes e métodos como private, afim de garantir que apenas objetos dentro da classe específica poderão acessá-los.
-
-3. **Inexistência do tratamento de exceções**
-Normalmente, após utilizar o Try, no Catch é realizado um tratamento para as possíveis exceções que possam vir a ocorrer no código, para que as mesmas sejam notificadas ao desenvolvedor, afim de garantir o conhecimento de todos os possíveis cenários durante a execução do código.
-Neste caso, o catch está como: ***Catch (exception e) {}***, demonstrando que caso haja uma exceção, o código seguirá com o script normalmente, o que não é uma boa prática.
+branch ETAPA-3
+    src/caixabranca
+        User.java
