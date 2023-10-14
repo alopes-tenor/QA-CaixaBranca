@@ -14,8 +14,7 @@ Para realizar a documentação do código, foi utilizada a ferramenta JavaDoc, q
 2. 
 O código documentado pode ser acessado neste repositório em:
 
----"branch ETAPA-3"
+*"branch ETAPA-3"*
 
-   -- "src"
-    
-      -"User.java"
+   > "src"
+      >"User.java"
