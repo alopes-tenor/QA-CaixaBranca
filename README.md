@@ -11,8 +11,11 @@ Documentar um código é considerado uma boa prática de programação, é uma f
 Para realizar a documentação do código, foi utilizada a ferramenta JavaDoc, que é uma ferramenta voltada para a documentação de códigos em Java. A ferramenta vem instalada junto ao JDK e é possível utilizá-la através de qualquer IDE. Neste caso, a IDE utilizada é o Apache Netbeans 13.
 
 1. **Documentação da classe User **
+2. 
 O código documentado pode ser acessado neste repositório em:
 
 branch ETAPA-3
+
     src/caixabranca
+    
         User.java
